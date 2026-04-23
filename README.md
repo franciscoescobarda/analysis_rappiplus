@@ -4,45 +4,49 @@ Se realizó un análisis de datos de RappiPlus, un servicio de suscripción dent
 
 El objetivo del análisis fue entender el desempeño del servicio y detectar oportunidades concretas de mejora.
 
-Para ello, se trabajó con tres fuentes de datos:
-a) 'plans.csv': los planes actuales (precio, minutos incluidos, GB incluidos, costo por extra).
-b) users_latam.csv: información de clientes: edad, ciudad, fecha de registro, plan contratado.
-c) usage.csv: el detalle de uso real: llamadas (duración) y mensajes (longitud).\
+Para ello, se trabajó con tres fuentes de datos:  
+a) 'rappiplus_orders.csv': cada fila representa un pedido realizado en la plataforma
+b) rappiplus_catalog.csv: cada fila representa un producto disponible en la plataforma
+c) rappiplus_marketing_spend.csv: cada fila representa una inversión en marketing realizada en un país y canal específico.
 
 Las etapas del análisis realizadas fueron:
-1.- Exploración:
-- Cargar y explorar plans, users_latam, usage
-- Visión clara de la estructura y tipos de columna de cada dataset.
+1.- Preparación y calidad de datos con Pyton:
+- Pregunta clave: ¿Podemos confiar en los datos?
+- Evaluar calidad de los datos.
+- Detectar inconsistencias.
+- Limpiar y estructurar datasets.
+- Generar un data.
+- Resultado esperado: dataset limpio.
 
-2.- Identificación de problemas de calidad:
-- Contar nulos, detectar sentinels, revisar fechas fuera de rango.
-- Lista priorizada de problemas que pueden sesgar decisiones.
+2.- Análisis de rentabilidad del negocio con Python.
+- Pregunta clave: ¿El negocio es rentable?
+- Cálculo de KPIs (ejemplo ingresos/revenue, costos, ganancias)
+- Identificación de segmentos rentables.
+- Resultado esperado: KPIs (revenue, cost, profit)
 
-3.- Limpieza básica:
-- Reemplazar sentinels, convertir fechas, imputar o marcar NA según reglas.
-- Datos consistentes y listos para análisis estadístico.
+3.- 
+- Pregunta clave: ¿
+- Resultado esperado:
 
-4.- Resumen estadístico:
-- Revisar las medidas clave en variables categóricas y numéricas.
-- Medidas clave (media, mediana, percentiles) que muestran el comportamiento típico y extremo.
+4.- 
+- Pregunta clave: ¿
+- Resultado esperado:
 
-5.- Visualizaciones y outliers:
-- Creación de histogramas y boxplots.
-- Visualización de sesgos, patrones de usuarios o datos atípicos.
+5.- 
+- Pregunta clave: ¿
+- Resultado esperado:
+  
+6.- 
+- Pregunta clave: ¿
+- Resultado esperado:
 
-6.- Segmentación de clientes:
-- Crear segmentaciones basadas en reglas claras; visualizar proporciones con countplots.
-- Segmentos accionables que permiten diseñar ofertas, campañas y migraciones de plan.
-- Construcción de un perfil estadístico del uso (llamadas y mensajes) por cliente y por segmentos demográficos.
-
-7.- Insight ejecutivo:
-- Redactar conclusiones y recomendaciones comerciales basadas en los pasos anteriores.
-- Responder a las preguntas del negocio y proponer acciones concretas.
-- Visualización de diferencias entre segmentos y extraer insights comerciales relevantes.
-
-8.- Publicación:
-- Subir notebook + README a GitHub.
-- Entrega reproducible para revisión y ejecución por stakeholders.
+7.- 
+- Pregunta clave: ¿
+- Resultado esperado:
+  
+8.- 
+- Pregunta clave: ¿
+- Resultado esperado:
 
 Como ejecutar el notebook desde Google Colab
 
@@ -58,10 +62,11 @@ Guía de reproducción.
 
 1.- Estructura de archivos:
 - README.md
-- analysis_connectatel.jpynb
-- data: plans.csv, users_latam.csv, usage.csv
+- analysis_rappiplus.jpynb
+- data: orders.csv, catalog.csv, marketing.csv
 
-2.- Librerías necesarias: - pandas>=1.3.0
+2.- Librerías necesarias: 
+- pandas>=1.3.0
 - numpy>=1.21.0
 - matplotlib>=3.4.0
 - seaborn>=0.11.0
@@ -70,6 +75,7 @@ Guía de reproducción.
 3.- Pasos de reproducción:
 - Preparación del entorno: descargar repositorio, cargarlo a google colab.
 - Flujo de análisis (7 pasos):
+
 3.1 Exploración
 3.2 Identificación problemas de calidad
 3.3 Limpieza básica
