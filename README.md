@@ -77,7 +77,7 @@ Guía de reproducción.
 3.- Pasos de reproducción:
 - Preparación del entorno: descargar repositorio, cargarlo a google colab.
   
-- Flujo de análisis (7 pasos):
+- Flujo de análisis (7 pasos):  
 3.1 Limpieza y calidad de los datos (Pyhon).  
 3.2 Rentabilidad (Python).  
 3.3 Funnel (SQL).  
