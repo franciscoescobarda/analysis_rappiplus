@@ -5,7 +5,7 @@ Se realizó un análisis de datos de RappiPlus, un servicio de suscripción dent
 El objetivo del análisis fue entender el desempeño del servicio y detectar oportunidades concretas de mejora.
 
 Para ello, se trabajó con tres fuentes de datos:
-a) plans.csv: los planes actuales (precio, minutos incluidos, GB incluidos, costo por extra).
+a) 'plans.csv': los planes actuales (precio, minutos incluidos, GB incluidos, costo por extra).
 b) users_latam.csv: información de clientes: edad, ciudad, fecha de registro, plan contratado.
 c) usage.csv: el detalle de uso real: llamadas (duración) y mensajes (longitud).\
 
