@@ -5,9 +5,9 @@ Se realizó un análisis de datos de RappiPlus, un servicio de suscripción dent
 El objetivo del análisis fue entender el desempeño del servicio y detectar oportunidades concretas de mejora.
 
 Para ello, se trabajó con tres fuentes de datos:  
-a) 'rappiplus_orders.csv': cada fila representa un pedido realizado en la plataforma
-b) rappiplus_catalog.csv: cada fila representa un producto disponible en la plataforma
-c) rappiplus_marketing_spend.csv: cada fila representa una inversión en marketing realizada en un país y canal específico.
+a) 'rappiplus_orders.csv': cada fila representa un pedido realizado en la plataforma.  
+b) rappiplus_catalog.csv: cada fila representa un producto disponible en la plataforma.  
+c) rappiplus_marketing_spend.csv: cada fila representa una inversión en marketing realizada en un país y canal específico.  
 
 Las etapas del análisis realizadas fueron:
 1.- Preparación y calidad de datos con Pyton:
