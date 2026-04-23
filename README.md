@@ -84,5 +84,4 @@ Guía de reproducción.
 3.4 Retención (SQL).  
 3.5 Experimentación (Python).  
 3.6 Dashboard (Power BI).  
-3.6 Segmentación de clientes
-3.7 Insight ejecutivo
+3.7 Insight ejecutivo.  
