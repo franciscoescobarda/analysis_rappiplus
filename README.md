@@ -10,7 +10,9 @@ b) rappiplus_catalog.csv: cada fila representa un producto disponible en la plat
 c) rappiplus_marketing_spend.csv: cada fila representa una inversión en marketing realizada en un país y canal específico.  
 
 Las etapas del análisis realizadas fueron:  
-1.- Preparación y calidad de datos con Python:
+
+1.- Preparación y calidad de datos con Python:  
+
 - Pregunta clave: ¿Podemos confiar en los datos?
 - Evaluar calidad de los datos.
 - Detectar inconsistencias.
