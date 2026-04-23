@@ -9,7 +9,7 @@ a) 'rappiplus_orders.csv': cada fila representa un pedido realizado en la plataf
 b) rappiplus_catalog.csv: cada fila representa un producto disponible en la plataforma.  
 c) rappiplus_marketing_spend.csv: cada fila representa una inversión en marketing realizada en un país y canal específico.  
 
-Las etapas del análisis realizadas fueron:
+Las etapas del análisis realizadas fueron:  
 1.- Preparación y calidad de datos con Pyton:
 - Pregunta clave: ¿Podemos confiar en los datos?
 - Evaluar calidad de los datos.
